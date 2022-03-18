@@ -6,7 +6,7 @@ function Nav() {
   return (
     <nav>
       <div className="nav__logo">
-        <Link to="/">WCIV</Link>
+        <Link to="/">Movies</Link>
       </div>
       <div className="nav__links">
         <Link to="trending">Trending</Link>
