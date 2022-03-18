@@ -35,7 +35,7 @@ function App() {
             path="/action-movies"
             element={
               <ActionMovies
-                title="Action Movies"
+                title="Action"
                 fetchUrl={requests.fetchActionMovies}
               />
             }
@@ -44,7 +44,7 @@ function App() {
             path="/comedy-movies"
             element={
               <ComedyMovies
-                title="Comedy Movies"
+                title="Comedy"
                 fetchUrl={requests.fetchComedyMovies}
               />
             }
@@ -53,7 +53,7 @@ function App() {
             path="/horror-movies"
             element={
               <HorrorMovies
-                title="Horror Movies"
+                title="Horror"
                 fetchUrl={requests.fetchHorrorMovies}
               />
             }
@@ -62,7 +62,7 @@ function App() {
             path="/romance-movies"
             element={
               <RomanceMovies
-                title="Romance Movies"
+                title="Romance"
                 fetchUrl={requests.fetchRomanceMovies}
               />
             }

@@ -6,7 +6,7 @@ import Row from "../components/Row";
 
 const base_url = "https://image.tmdb.org/t/p/original/";
 
-const Trending = ({ title, fetchUrl }) => {
+const Pages = ({ title, fetchUrl }) => {
   const [movies, setMovies] = useState([]);
 
   useEffect(() => {
@@ -20,4 +20,4 @@ const Trending = ({ title, fetchUrl }) => {
   return <Row movies={movies} baseUrl={base_url} title={title} />;
 };
 
-export default Trending;
+export default Pages;

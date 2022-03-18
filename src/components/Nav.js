@@ -11,10 +11,10 @@ function Nav() {
       <div className="nav__links">
         <Link to="trending">Trending</Link>
         <Link to="top-rated">Top Rated</Link>
-        <Link to="action-movies">Action Movies</Link>
-        <Link to="comedy-movies">Comedy Movies</Link>
-        <Link to="horror-movies">Horror Movies</Link>
-        <Link to="romance-movies">Romance Movies</Link>
+        <Link to="action-movies">Action</Link>
+        <Link to="comedy-movies">Comedy</Link>
+        <Link to="horror-movies">Horror</Link>
+        <Link to="romance-movies">Romance</Link>
         <Link to="documentaries">Documentaries</Link>
       </div>
     </nav>
