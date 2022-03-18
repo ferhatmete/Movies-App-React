@@ -9,7 +9,6 @@ function Nav() {
         <Link to="/">WCIV</Link>
       </div>
       <div className="nav__links">
-        <Link to="/">Home</Link>
         <Link to="trending">Trending</Link>
         <Link to="top-rated">Top Rated</Link>
         <Link to="action-movies">Action Movies</Link>
