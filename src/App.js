@@ -3,7 +3,6 @@ import "./App.css";
 // API
 import requests from "./requests";
 // Components
-import Home from "./Pages/Home";
 import Nav from "./components/Nav";
 // Pages
 import Trending from "./Pages/Trending";
@@ -20,7 +19,6 @@ function App() {
       <div className="App">
         <Nav />
         <Routes>
-          <Route path="/" element={<Home />}></Route>
           <Route
             path="/trending"
             element={
