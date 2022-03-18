@@ -1,3 +1,4 @@
+// Components
 import Pages from "../components/Pages";
 
 function HorrorMovies({ title, fetchUrl }) {

@@ -1,4 +1,4 @@
-import React from "react";
+// Components
 import Pages from "../components/Pages";
 
 function ActionMovies({ title, fetchUrl }) {
