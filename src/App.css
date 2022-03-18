@@ -1,4 +1,17 @@
 * {
   margin: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.App {
+  display: flex;
+}
+
+.content {
+  background-color: rgba(255, 255, 255, 0.589);
 }
